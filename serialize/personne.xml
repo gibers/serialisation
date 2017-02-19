@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_65" class="java.beans.XMLDecoder">
+ <object class="org.jbc.Person">
+  <void property="age">
+   <int>33</int>
+  </void>
+  <void property="firstName">
+   <string>toto</string>
+  </void>
+  <void property="name">
+   <string>Durant</string>
+  </void>
+  <void property="sexe">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>org.jbc.enums.Sexe</class>
+    <string>M</string>
+   </object>
+  </void>
+ </object>
+</java>
